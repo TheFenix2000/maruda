@@ -25,7 +25,7 @@ module.exports = {
           inline: true,
         });
       const SubjectManager = new WebhookClient({
-        url: "https://discord.com/api/webhooks/1007691983969583104/v62vvCzdI95ewLtOKwfI9xWp96C3vu_iy3ygkZ4_EbasaTXlO-avsj3kpFxQIN9PnBJ0",
+        url: "https://discord.com/api/webhooks/1007710281729847307/U0q69kF47wKD1RQzGiF3wQc0b8AZi0RR5l3GIDw1sp_9Ix4P4_x01TnPbDwUtNT5T0i-",
       });
       SubjectManager.send({
         embeds: [Response],
