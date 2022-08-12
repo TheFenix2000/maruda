@@ -1,6 +1,5 @@
 const { Client, Collection } = require("discord.js");
 const client = new Client({ intents: 46599 });
-const { Token } = require("./config.json");
 const { promisify } = require("util");
 const { glob } = require("glob");
 const PG = promisify(glob);
