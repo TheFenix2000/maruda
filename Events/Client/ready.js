@@ -7,6 +7,6 @@ module.exports = {
    */
   execute(client) {
     console.log("The client is now ready");
-    client.user.setActivity("Mierzy w hejterów", { type: "LISTENING" });
+    client.user.setActivity("Mierzy w hejterów");
   },
 };
