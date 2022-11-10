@@ -11,4 +11,4 @@ client.commands = new Collection();
   require(`./Handlers/${handler}`)(client, PG, Ascii);
 });
 //env
-client.login("OTI4MDQ3MTQzMjE2OTA2MjQw.G1F85A.boc6QFoxeqa4G_kMR4YsfgwOFfX0elPwlggSVI");
+client.login(process.env.TOKEN);
