@@ -11,6 +11,9 @@ module.exports = {
    */
   async execute(message) {
     if (message.channelId === "1007700985931644998" && !message.author.bot) {
+      if (message.content[0]==="\\" && message.member.permissions.has("ADMINISTRATOR")){
+        return
+      }
       const Response = new MessageEmbed()
         .setColor("GOLD")
         .setAuthor({
